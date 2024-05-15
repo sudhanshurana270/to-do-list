@@ -1,0 +1,83 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the to-do list */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center; /* Align content to the center */
+}
+
+/* Heading styles */
+h1 {
+    color: navy; /* Change text color to navy blue */
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+#add-task {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#task-name {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+#add-button {
+    padding: 10px 20px;
+    background-color: navy; /* Change button background color to navy blue */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Task status styles */
+.task-done {
+    color: green;
+    font-weight: bold;
+}
+
+/* Action buttons styles */
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions .complete, .actions .remove {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.actions .complete {
+    color: green;
+}
+
+.actions .remove {
+    color: red;
+}
